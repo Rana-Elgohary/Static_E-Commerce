@@ -1,0 +1,273 @@
+.bar{
+    background-color: rosybrown;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+}
+.bar img{
+    float: left;
+    width: 230px;
+    height: 100px;
+}
+.search input[type=text]
+{
+    width:300px;
+    height:30px;
+    border-radius:25px;
+    border: none;
+    background-color:rgba(119, 118, 118, 0.356);
+    float:right;
+    margin-top:35px;
+}
+.bar a{
+    color: #fff;
+    text-decoration: none;
+}
+.bar ul{
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin-top:35px;
+    font-size: larger;
+    position:absolute;
+    left: 550px;
+}
+.bar ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.bar a:hover{
+    color:rgba(255, 255, 255, 0.555);
+}
+.bar2{
+    background-color: rgba(188, 143, 143, 0.329);
+    width: 100%;
+    height: 35px;
+    margin-bottom: 50px;
+}
+.end{
+    background-color: rgba(188, 143, 143, 0.329);
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 50px;
+}
+.end hr{
+    color:#919191b9;
+}
+.list{
+    list-style-type: circle;
+}
+#last{
+    background-color:rosybrown;
+    padding: 20px;
+    color: #fff;
+}
+#last img{
+    height: 40px;
+    width: 120px;
+}
+#last p{
+    line-height: 40px;
+}
+.egypt:hover{
+    text-decoration: underline;
+    opacity:40%;
+}
+.mother{
+    background-image: url("Images/motherday2.jpg");
+    background-position: 60% 50%;
+    padding-left:10px;
+    height: 520px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid cadetblue;
+}
+.mother a{
+    font-weight:bolder; 
+    font-size:larger;
+    color:cadetblue; 
+}
+.hh{
+    border: 10px solid;
+    color:cadetblue;
+}
+.clothes{
+    text-align: center;
+    margin-top: 50px;
+}
+.clothes img{
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+.sale img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+.sale {
+    position: relative;
+    height: 320px;
+    padding: 80px;
+    background-color: rgba(95, 158, 160, 0.267);
+    margin: 70px;
+    /* color: rgb(114, 107, 96); */
+    color: red;
+}
+.type{
+    color: rgb(114, 107, 96);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.type img {
+    width: 130px;
+    height: 130px;   
+}
+.new{
+    margin-top:50px;  
+    background-image: url(Images/new.jpg);
+    background-position: 50% 50%;
+    height: 520px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* new */
+
+.shopping-cart {
+  width: 1000px;
+  height: 740px;
+  margin: 80px auto;
+  background: #e7cfcf;
+  box-shadow: 4px 5px 6px 1px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  height: 70px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #e08686;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+    border-bottom: 1px solid #E1E8EE;
+
+  
+}
+h5{
+    margin-left: 90px;
+    margin-right: 70px;
+  color: #e08686;
+  font-weight: 400;
+  font-family:Arial;
+}
+ 
+
+
+
+.image {
+  margin-right: 60px;
+  margin-left: 60px;
+  max-width: 9em;
+  max-height: 9em;
+  overflow: hidden
+  
+}
+ 
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  margin-left: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #f80101;
+}
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.quantity input {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+}
+ 
+.c-button{
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border: none;
+}
+.c-button:hover {
+  background: #e9918e;
+}
+
+.c-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top:3 px;
+}
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  margin-left: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+}
+.c1-button {
+  font-family: inherit;
+  appearance: none;
+  border: 0;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 150px;
+  border-radius: 5px;
+  background: #e7cfcf;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c1-button:hover {
+  background: #e9918e;
+}
+
+.c1-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
